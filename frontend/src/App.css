@@ -40,3 +40,22 @@
 .read-the-docs {
   color: #888;
 }
+
+.product-image {
+  max-width: 400px;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
