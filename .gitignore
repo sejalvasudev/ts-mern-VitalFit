@@ -1,1 +1,8 @@
-/amazona ecommerce(own built).txt
+/node_modules
+/build
+.env
+
+# System Files
+.DS_Store
+Thumbs.db
+package-lock.json
