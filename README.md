@@ -1,4 +1,4 @@
-# TypeScript MERN AMAZONA
+# TypeScript MERN VitalFit
 
 ## All Things Done in This Project
 
