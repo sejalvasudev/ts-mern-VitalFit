@@ -1,86 +1,36 @@
-# TypeSript MERN AMAZONA
+## Project Overview
 
-Welcome to my TypeScript course to build a fully-functional e-commerce website exactly like amazon. Open your code editor and follow me for the next hours to build an e-commerce website using MERN stack (MongoDB, ExpressJS, React and Node.JS).
+This project demonstrates a complete e-commerce application built using modern web technologies. It covers both frontend and backend development, focusing on a TypeScript-based React application and a Node.js/Express.js backend with MongoDB. Key features and technologies include:
 
-![amazona](/frontend/public/images/amazona.png)
+### Frontend
 
-## Get Course:
+- **Creating React Application with Vite in TypeScript:**
+  - Set up a React project using Vite for fast development and optimized builds.
+  
+- **Defining and Exporting Types:**
+  - Created and exported TypeScript types for `Product`, `Order`, and `User` to ensure type safety and improve code quality.
 
-[https://youtu.be/-ifcPnXHn8Q](https://youtu.be/-ifcPnXHn8Q)
+- **Creating E-commerce Pages:**
+  - Implemented pages for Cart, Checkout, and Place Order using React Router DOM for client-side routing.
 
-## Demo Website
+- **Using React Hooks:**
+  - Utilized React hooks to handle form inputs and fetch data from the backend API.
 
-- 👉 Render : [https://ts-amazona-final.onrender.com](https://ts-amazona-final.onrender.com)
+- **Managing and Monitoring Application State:**
+  - Employed React Context to manage and monitor the application's state globally.
 
-## You Will Learn
+- **Handling Shopping Cart:**
+  - Implemented shopping cart functionality using reducers and local storage for persistence.
 
-- Creating react application by Vite in TypeScript
-- Defining and exporting Types like product, orders and user in frontend
-- Creating e-commerce pages like cart, checkout and place order using React Router Dom
-- Using React hooks to handle form inputs and fetch backend api
-- Managing and monitoring application state by React Context
-- Handling shopping cart using reducers and local storage
-- Building backend web api by node.js, express.js and MongoDB
-- Handling authentication and authorization using JsonWebToken and express middleware.
-- Deploying your application on cloud servers like Render
-- PayPal and Stipe for online payment,
-- Render for deployment
-- Google Map for locate customer address on map
-- Mailgun to email order receipt to user
+### Backend
 
-## Run Locally
+- **Building Backend Web API:**
+  - Developed a RESTful API using Node.js and Express.js, with MongoDB as the database for handling data operations.
 
-### 1. Clone repo
+- **Handling Authentication and Authorization:**
+  - Integrated JSON Web Tokens (JWT) for user authentication and authorization, with Express middleware for secure access control.
 
-```
-$ git clone git@github.com:basir/ts-mern-amazona.git
-$ cd ts-mern-amazona
-```
+### Deployment and Additional Features
 
-### 2. Create .env File
-
-- duplicate .env.example in backend folder and rename it to .env
-
-### 3. Setup MongoDB
-
-- Local MongoDB
-  - Install it from [here](https://www.mongodb.com/try/download/community)
-  - In .env file update MONGODB_URI=mongodb://localhost/amazona
-- OR Atlas Cloud MongoDB
-  - Create database at [https://cloud.mongodb.com](https://cloud.mongodb.com)
-  - In .env file update MONGODB_URI=mongodb+srv://your-db-connection
-
-### 4. Run Backend
-
-```
-$ cd backend
-$ npm install
-$ npm start
-```
-
-### 5. Run Frontend
-
-```
-# open new terminal
-$ cd frontend
-$ npm install
-$ npm start
-```
-
-### 6. Seed Users and Products
-
-- Run this on browser: http://localhost:5000/api/seed
-- It returns admin email and password and 6 sample products
-
-### 7. Admin Login
-
-- Run http://localhost:3000/signin
-- Enter admin email and password and click signin
-
-## Support
-
-- Contact Instructor: [Basir](mailto:basir.jafarzadeh@gmail.com)
-
-## Lessons
-
-- [View All Lessons Scripts](/lessons/)
+- **Deployment:**
+  - Deployed the application on cloud servers like Render.com for scalable and reliable hosting.
