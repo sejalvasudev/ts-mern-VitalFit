@@ -1,7 +1,1 @@
-amazona ecommerce 
 
-
-to start application : in both cd frontend and cd backend
-
-npm run build
-npm run dev
