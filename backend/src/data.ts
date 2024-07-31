@@ -8,7 +8,7 @@ export const sampleProducts: Product[] = [
     slug: 'nike-slim-shirt',
     category: 'Shirts',
     image: '../images/p1.jpg',
-    price: 120,
+    price: 1200, // Converted to INR
     countInStock: 10,
     brand: 'Nike',
     rating: 4.5,
@@ -20,7 +20,7 @@ export const sampleProducts: Product[] = [
     slug: 'adidas-fit-shirt',
     category: 'Shirts',
     image: '../images/p2.jpg',
-    price: 100,
+    price: 1000, // Converted to INR
     countInStock: 20,
     brand: 'Adidas',
     rating: 4.0,
@@ -32,7 +32,7 @@ export const sampleProducts: Product[] = [
     slug: 'lacoste-free-pants',
     category: 'Pants',
     image: '../images/p3.jpg',
-    price: 220,
+    price: 2200, // Converted to INR
     countInStock: 0,
     brand: 'Lacoste',
     rating: 4.8,
@@ -44,7 +44,7 @@ export const sampleProducts: Product[] = [
     slug: 'nike-slim-pant',
     category: 'Pants',
     image: '../images/p4.jpg',
-    price: 78,
+    price: 2800, // Converted to INR
     countInStock: 15,
     brand: 'Nike',
     rating: 4.5,
@@ -56,7 +56,7 @@ export const sampleProducts: Product[] = [
     slug: 'gymshark-pink-tank-top',
     category: 'Tops',
     image: '../images/p5.jpg',
-    price: 55,
+    price: 1500, // Converted to INR
     countInStock: 25,
     brand: 'Gymshark',
     rating: 4.6,
@@ -68,8 +68,8 @@ export const sampleProducts: Product[] = [
     slug: 'oneractive-black-coord-set',
     category: 'Sets',
     image: '../images/p6.jpg',
-    price: 120,
-    countInStock: 10,
+    price: 1800, // Converted to INR
+    countInStock: 0, // Set as out of stock
     brand: 'Oneractive',
     rating: 4.7,
     numReviews: 6,
@@ -80,7 +80,7 @@ export const sampleProducts: Product[] = [
     slug: 'gymshark-red-tank-top',
     category: 'Tops',
     image: '../images/p7.jpg',
-    price: 55,
+    price: 800, // Converted to INR
     countInStock: 20,
     brand: 'Gymshark',
     rating: 4.8,
@@ -92,7 +92,7 @@ export const sampleProducts: Product[] = [
     slug: 'nike-teal-coord-set',
     category: 'Sets',
     image: '../images/p8.jpg',
-    price: 150,
+    price: 1700, // Converted to INR
     countInStock: 8,
     brand: 'Nike',
     rating: 4.9,
