@@ -21,7 +21,7 @@ export const usePayOrderMutation = () =>
     mutationFn: async (details: { orderId: string }) =>
       (
         await apiClient.put<{ message: string; order: Order }>(
-          `api/orders/${details.orderId}/pay`,
+          `api/orders/Rs.{details.orderId}/pay`,
           details
         )
       ).data,
